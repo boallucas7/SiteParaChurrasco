@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do Churrasco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Cadastro de usuário para o Churrasco</h2>
+    <form action=" ">
+        <label for="txtUsuario">Crie um nome de usuário:</label>
+        <input type="txt" id="txtUsuario" name="txtUsuario" placeholder="Digite o usuário" required>
+        <br><br>
+        <label for="txtSenha">Crie sua senha segura:</label>
+        <input type="password" id="txtSenha" name="txtSenha" placeholder="Digite uma senha" required>
+        <br><br>
+        <label for="txtdtNascimento">Data de Nascimento:</label>
+        <input type="date" id="txtdtNascimento" name="txtdtNascimento" required>
+        <br><br>
+        <label for="selTipoConta">Tipo de conta</label>
+        <select id="selTipoConta" name="selTipoConta" required>
+            <br><br>
+            <option value="" disabled selected>Selecione um tipo</option>
+            <option value="admin">Administrador</option>
+            <option value="convidado">Convidado Padrão</option>
+            <option value="Serviço">Prestador de Serviços</option>
+        </select>
+        <br><br>
+        <button type="button" onclick="cadastrar('Usuário criado!');">Criar Usuário</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>

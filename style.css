@@ -1,0 +1,61 @@
+/* Resetando estilos padrão */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizando o corpo da página */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Estilizando o formulário */
+
+form{
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+
+/* Estilizando input e selection */
+
+input, select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilizando o botão */
+
+button{
+    width: 100px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Estilizando estilo do ponteiro do mouse */
+
+button:hover{
+    background-color: #218838;
+}
+
+/* Estilizando o campo de data */
+
+input[type="date"] {
+    text-align: center;
+}
